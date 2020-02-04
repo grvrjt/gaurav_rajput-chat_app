@@ -1,4 +1,4 @@
-var generateMessage = function (username,text) {
+var generateMessage = function(username, text) {
     return {
         username,
         text,
@@ -6,7 +6,7 @@ var generateMessage = function (username,text) {
     };
 };
 
-var generateLocationMessage = function(username ,url) {
+var generateLocationMessage = function(username, url) {
     return {
         username,
         url,
