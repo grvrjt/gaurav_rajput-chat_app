@@ -17,7 +17,7 @@ var publicDirectoryPath = path.join(__dirname, "../public");
 app.use(express.static(publicDirectoryPath));
 
 io.on("connection", function(socket) {
-    console.log("New webSocket  Connection");
+    console.log("Hello - New webSocket  Connection");
 
     socket.on("join", function(options, callback) {
         var { error, user } = addUser({
